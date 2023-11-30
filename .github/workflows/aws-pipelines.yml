@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: awsdevopsregistry1           # set this to your Amazon ECR repository name
   ECS_SERVICE: ecsservice2                 # set this to your Amazon ECS service name
   ECS_CLUSTER: awsclusterdevops2                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: awstaskdef2 # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: arn:aws:ecs:eu-west-1:748726675231:task-definition/awstaskdef2:1 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: myapp2           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
